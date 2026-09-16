@@ -15,6 +15,16 @@ interface BentoProject {
 
 const aiProjects: BentoProject[] = [
   {
+    id: "lovenest-ai",
+    badge: "AI / Matchmaking",
+    title: "LoveNest – AI Dating & Social Platform",
+    description:
+      "AI-powered social platform utilizing semantic embeddings for personality matching, client-side Face Lock security, real-time messaging with Socket.IO & Redis, and 1-to-1 video calling via WebRTC & LiveKit.",
+    tags: ["Python", "FastAPI", "React 19", "WebRTC", "LiveKit", "Redis"],
+    githubUrl: "https://github.com/Sayakdas12/LoveNest",
+    gridSpan: "large",
+  },
+  {
     id: "cold-email",
     badge: "AI / LLM",
     title: "ColdReach AI – Cold Email Generator",
@@ -23,7 +33,7 @@ const aiProjects: BentoProject[] = [
     img: "/projects/cold-email.png",
     tags: ["Python", "LangChain", "Groq LLM", "ChromaDB"],
     githubUrl: "https://github.com/Sayakdas12",
-    gridSpan: "large",
+    gridSpan: "medium",
   },
   {
     id: "plant-d",
@@ -45,64 +55,51 @@ const aiProjects: BentoProject[] = [
     img: "/projects/plat-dect.png",
     tags: ["Python", "YOLO", "OpenCV"],
     githubUrl: "https://github.com/Sayakdas12",
-    gridSpan: "medium",
-  },
-  {
-    id: "ardu-bot",
-    badge: "Robotics & Vision",
-    title: "Ardu-VisionAgro Robo Bot",
-    description:
-      "Integrated hardware-software solution combining Arduino robotics with computer vision for automated agricultural monitoring and intervention tasks.",
-    img: "/projects/ardu-bot.jpg",
-    tags: ["Python", "Arduino", "OpenCV"],
-    githubUrl: "https://github.com/Sayakdas12",
     gridSpan: "large",
   },
 ];
 
 const webProjects: BentoProject[] = [
   {
+    id: "municipal-mgmt",
+    badge: "Full Stack & DevOps",
+    title: "Smart Municipal Complaint & Cleanliness Management",
+    description:
+      "Centralized municipal platform for citizen cleanliness complaints, sanitation worker assignment, task tracking, geo-tagged photo evidence workflows, and hotspot analytics dashboards with Docker & Kubernetes deployment.",
+    tags: ["React.js", "PostgreSQL", "Redis", "Docker", "Kubernetes", "Node.js"],
+    githubUrl: "https://github.com/Sayakdas12",
+    gridSpan: "large",
+  },
+  {
+    id: "lovenest-web",
+    badge: "Distributed Microservices",
+    title: "LoveNest Platform",
+    description:
+      "Distributed full-stack architecture with REST & GraphQL APIs, dedicated Python FastAPI ML microservice for independent scaling, Socket.IO presence, LiveKit video streams, and Redis caching.",
+    tags: ["React 19", "GraphQL", "FastAPI", "PostgreSQL", "Redis", "Socket.IO"],
+    githubUrl: "https://github.com/Sayakdas12/LoveNest",
+    gridSpan: "medium",
+  },
+  {
     id: "ambulance-booking",
     badge: "MERN + ML",
     title: "Ambulance Booking System",
     description:
       "Full-stack emergency ambulance booking system enabling users to request real-time ambulance services with automated driver allocation, live trip status tracking, and JWT role-based access control.",
-    tags: ["React", "Tailwind", "Node.js", "Express.js", "MongoDB"],
+    tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
     webUrl: "https://pennycostconsultancy.com",
-    githubUrl: "https://github.com/Sayakdas12",
-    gridSpan: "large",
-  },
-  {
-    id: "university-mgmt",
-    badge: "Full Stack",
-    title: "University Management & Dropout Early Warning",
-    description:
-      "Engineered analytical software tools to monitor and identify students at risk of dropout based on attendance and academic performance metrics. Deployed on Vercel and Render.",
-    tags: ["React", "PHP", "MySQL", "Node.js", "Express.js"],
-    webUrl: "https://stayinschoolnew.vercel.app",
-    githubUrl: "https://github.com/Sayakdas12",
-    gridSpan: "medium",
-  },
-  {
-    id: "phocloud",
-    badge: "Cloud Platform",
-    title: "Phocloud Web Application",
-    description:
-      "High-performance media cloud platform with Uncertainty UI components, responsive layout optimization, secure API endpoints, and scalable database schemas.",
-    tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js"],
-    webUrl: "https://phoecloud.vercel.app",
-    githubUrl: "https://github.com/Sayakdas12",
+    githubUrl: "https://github.com/Sayakdas12/Ambulance_Booking",
     gridSpan: "medium",
   },
   {
     id: "sayak-portfolio",
-    badge: "React + Redux",
-    title: "Sayak Das Portfolio Platform",
+    badge: "Developer Portfolio",
+    title: "Sayak Das Portfolio Website",
     description:
-      "Modern developer portfolio built using React.js, Redux, and modern design components to highlight full-stack projects, architecture showcases, and live deployments.",
-    tags: ["React.js", "Redux", "Tailwind", "Node.js", "MongoDB"],
-    webUrl: "https://sayakdasport.vercel.app",
-    githubUrl: "https://github.com/Sayakdas12",
+      "Responsive developer portfolio website showcasing professional experience, projects, technical skills, and certifications with modern UI interactions, 3D elements, and Vercel production delivery.",
+    tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "Redux"],
+    webUrl: "https://portfolio-sayak-chi.vercel.app",
+    githubUrl: "https://github.com/Sayakdas12/portfolio-Sayak-",
     gridSpan: "large",
   },
   {

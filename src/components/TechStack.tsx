@@ -145,6 +145,27 @@ const techCategories: TechCategory[] = [
         level: "Advanced",
         desc: "Reliable relational management",
       },
+      {
+        name: "FastAPI",
+        iconSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+        glowColor: "rgba(5, 153, 139, 0.5)",
+        level: "Advanced",
+        desc: "High-performance Python APIs",
+      },
+      {
+        name: "Redis",
+        iconSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+        glowColor: "rgba(220, 56, 45, 0.5)",
+        level: "Advanced",
+        desc: "In-memory caching & pub/sub",
+      },
+      {
+        name: "GraphQL",
+        iconSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+        glowColor: "rgba(229, 53, 171, 0.5)",
+        level: "Advanced",
+        desc: "Declarative API queries",
+      },
     ],
   },
   {
@@ -249,6 +270,20 @@ const techCategories: TechCategory[] = [
         glowColor: "rgba(227, 79, 38, 0.5)",
         level: "Expert",
         desc: "Semantic responsive markup",
+      },
+      {
+        name: "Redux",
+        iconSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        glowColor: "rgba(118, 74, 188, 0.5)",
+        level: "Expert",
+        desc: "Predictable centralized state",
+      },
+      {
+        name: "Socket.IO / WebRTC",
+        iconSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg",
+        glowColor: "rgba(255, 255, 255, 0.4)",
+        level: "Advanced",
+        desc: "Real-time sockets & live audio/video",
       },
       {
         name: "VS Code",
