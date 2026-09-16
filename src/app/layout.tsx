@@ -1,0 +1,47 @@
+import type { Metadata, Viewport } from "next";
+import "./globals.css";
+import SmoothScrollProvider from "@/components/SmoothScrollProvider";
+
+export const metadata: Metadata = {
+  title: "Sayak Das || Portfolio",
+  description:
+    "Portfolio of Sayak Das - Full Stack Developer. Explore projects, education, talks, and contact info.",
+  icons: {
+    icon: "/assets/project img/coffee-bag_884757.png",
+  },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <head>
+        {/* Remixicons */}
+        <link
+          href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+          rel="stylesheet"
+        />
+        {/* Font Awesome */}
+        <script
+          src="https://kit.fontawesome.com/0e4a14a188.js"
+          crossOrigin="anonymous"
+          async
+        ></script>
+        {/* VanillaTilt */}
+        <script src="/vanilla-tilt.js" defer></script>
+      </head>
+      <body>
+        <SmoothScrollProvider>{children}</SmoothScrollProvider>
+      </body>
+    </html>
+  );
+}
